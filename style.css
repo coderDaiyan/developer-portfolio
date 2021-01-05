@@ -1,9 +1,27 @@
+/* All tags CSS */
+
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+p {
+  color: dimgray;
 }
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
+section {
+  height: 500px;
+}
+footer p {
+  text-align: center;
+}
+
+/* All Classes CSS */
+
 .name-highlight {
   color: #6047ec;
 }
@@ -16,12 +34,7 @@ h1 {
 .half-width img {
   width: 100%;
 }
-.top-banner {
-  background-image: url("images/top-banner.png");
-}
-.section {
-  height: 500px;
-}
+
 .link-button {
   color: white;
   text-decoration: none;
@@ -29,4 +42,26 @@ h1 {
   background-color: #6047ec;
   padding: 10px 20px;
   border-radius: 5px;
+}
+.dream-area {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.single-experience {
+  box-shadow: 10px 10px 50px dimgray;
+  border-radius: 5px;
+  height: 420px;
+}
+
+/* All ID Css */
+#full-stack {
+  border-left: 8px solid #6047ec;
+}
+#baby-web {
+  border-left: 8px solid #58ce94;
+  margin-bottom: 20px;
+}
+#exp-header h2 {
+  text-align: center;
 }

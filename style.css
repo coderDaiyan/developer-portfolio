@@ -1,32 +1,9 @@
 body {
-  margin: 0px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h1 {
   font-size: 50px;
 }
-
-.half-width {
-  width: 40%;
-  margin-left: 5%;
-  padding: 2%;
-  float: left;
-  margin-bottom: 100px;
-}
-
-.half-width img {
-  width: 100%;
-}
-
-.header {
-  height: 500px;
-  background-image: url(images/top-banner.png);
-  background-repeat: no-repeat;
-}
-
-.dream-area {
-  height: 500px;
-  background-image: url(images/dream-bg.png);
-  background-repeat: no-repeat;
-  background-position: right;
+.name-highlight {
+  color: #6047ec;
 }
